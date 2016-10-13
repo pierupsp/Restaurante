@@ -1,0 +1,79 @@
+#banner {
+    background : #83B8D9 url("../img/bg.png");
+    position   : fixed;
+    top        : 0;
+    left       : 0;
+    right      : 0;
+    z-index    : 1;
+    overflow   : hidden;
+}
+#banner p {
+    font-family  : verdana, sans-serif;
+    font-size    : 18pt;
+    color        : #FFFFFF;
+    text-shadow  : 1px 1px #99B6B2;
+    padding-top  : 7px;
+    padding-left : 20px;
+}
+#wrapper {
+    background-color : rgba(180, 235, 240, 0.32);
+}
+#menu {
+    background-color : #FFFFFF;
+    float            : left;
+    margin-top       : 47px !important;
+    width            : 180px;
+    height           : 100%;
+}
+#bienvenido {
+    padding-left     : 12px;
+    padding-bottom   : 8px;
+    background-color : #D4F2FF;
+    margin-bottom    : 0px;
+    color            : #2A60A2;
+    font-weight      : bold;
+}
+#acordion > p {
+    font-weight      : bold;
+    color            : #FFFFFF;
+    cursor           : pointer;
+    margin-bottom    : 0px;
+    margin-top       : 0px;
+    padding-left     : 12px;
+    padding-top      : 5px;
+    padding-bottom   : 5px;
+    background-image : url('../img/banner_shape.png');
+}
+#acordion > div a {
+    text-decoration : none;
+    line-height     : 2.1em;
+    color           : #586473;
+    width           : 100%;
+}
+#acordion > div p {
+    text-decoration : none;
+    line-height     : 2.1em;
+    color           : #586473;
+    padding-left    : 15px;
+    margin          : 0;
+}
+#acordion > div p:hover {
+    text-decoration  : none;
+    line-height      : 2.1em;
+    color            : #4D6A79;
+    background-color : #CEEEF4;
+}
+#divfrmlogin {
+    position         : absolute;
+    top              : 0;
+    bottom           : 0;
+    left             : 0;
+    right            : 0;
+    margin           : auto;
+    z-index          : 0;
+    background-color : #FFFFFF;
+    width            : 425px;
+    height           : 220px;
+    box-shadow       : 5px 5px 2px 2px #E3EFEE;
+    border           : solid 1px #E4F1F0;
+}
